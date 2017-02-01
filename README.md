@@ -24,7 +24,7 @@ We will create a project for blogs by scaffolding a quick app.  Scaffolding an a
 3.  Run 'rails generate devise:install' in the terminal. This will install all of the needed components for authentication.
 4.  Run 'rails generate devise User' in the terminal.  This will generate a User model.
 5.  Add the line 'has_many :posts' in your 'user.rb' file.
-6.  Add the line 'belong_to :user' in your 'post.rb' file.  Adding these two lines will associate your models for later use. 
+6.  Add the line 'belongs_to :user' in your 'post.rb' file.  Adding these two lines will associate your models for later use. 
 7.  Run 'rails generate migration add_user_id_to_posts' and add the line 'add_column :posts, :user_id, :integer' to the file that is generated.  This will add a foreign key between the two models and associate a post to the user that created it.
 8.  Finally, run 'rake db:migrate' in the terminal to migrate your database changes into the application.
 
