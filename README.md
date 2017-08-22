@@ -13,7 +13,7 @@ Today we will be generating a seperate project in order to fully understand the 
 
 We will create a project for blogs by scaffolding a quick app.  Scaffolding an app allows us to build out much of the logic so that we may be able to test out a new technology.
 
-1.  Create a new project in Cloud9 and title it 'rails-auth-demo'.  Set it to a Rails environment.
+1.  Create a new Rails project and title it 'rails-auth-demo'.
 2.  Scaffold your application for a post by running 'rails g scaffold Post title:string content:text'.  This will build all of the routing, modeling, and controller logic for posts in the application.
 3.  Migrate your database using the command 'rake db:migrate'.
 
